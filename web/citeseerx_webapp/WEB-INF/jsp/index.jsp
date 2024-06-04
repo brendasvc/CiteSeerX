@@ -25,6 +25,18 @@
 	<div id="wrapper">
 		<%@ include file="shared/IncludeTopNav.jsp" %>
 		<%@ include file="shared/IncludeSearchBoxFront.jsp" %>
+
+<!-- NEW IMPLEMENTATION -->
+
+  <div>
+    <strong>New summary</strong> <a href="http://localhost:3000/" target=”_blank”>Generate summary of my PDF</a>
+    <br><br>
+    <strong>New note</strong> <a href="<c:url value='/g4_implementation/notepadInterface.jsp'/>" target=”_blank”>Create a new note</a>
+    <!-- <strong>New note</strong> <a href="../../g4_implementation/notepadInterface.jsp" target=”_blank”>Create a new note</a> -->
+  </div>
+
+<!-- NEW IMPLEMENTATION -->
+
     <div id="statsLinks">
       <%--Most Cited: <a href="<c:url value="/stats/articles"/>">Documents</a> , <a href="<c:url value="/stats/citations"/>">Citations</a> , <a href="<c:url value="/stats/authors"/>">Authors</a> , <a href="<c:url value="/stats/venues"/>">Venue Impact Rating</a> --%>
       Most Cited: <a href="<c:url value="/stats/articles"/>">Documents</a> | <a href="<c:url value="/stats/citations"/>">Citations</a> 
