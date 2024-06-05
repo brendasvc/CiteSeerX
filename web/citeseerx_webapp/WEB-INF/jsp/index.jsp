@@ -31,8 +31,9 @@
   <div>
     <strong>New summary</strong> <a href="http://localhost:3000/" target="_blank">Generate summary of my PDF</a>
     <br><br>
-    <strong>New note</strong> <a href="<c:url value='/g4_implementation/notepadInterface.jsp'/>" target="_blank">Create a new note</a>
-    <!-- <strong>New note</strong> <a href="../../g4_implementation/notepadInterface.jsp" target=”_blank”>Create a new note</a> -->
+    <strong>New note</strong> <a href="<c:url value='/g4_Implementation/notepadInterface.jsp'/>" target="_blank">Create a new note</a>
+    
+    <!-- <strong>New note</strong> <a href="../../g4_Implementation/notepadInterface.jsp" target=”_blank”>Create a new note</a> -->
   </div>
 
 <!-- NEW IMPLEMENTATION -->
